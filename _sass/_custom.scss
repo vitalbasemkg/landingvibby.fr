@@ -1,0 +1,49 @@
+.bg {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+}
+
+
+.hero {
+  margin-top:32%;
+  .title {
+    @include font-size(72px);
+    color:#ffffff;
+  }
+
+  .subtitle {
+    display:inline-block;
+    padding: 0.357em 0.714em;
+    background-color:$primary-color;
+    @include font-size(28px);
+    color:#ffffff;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+  }
+}
+
+.countdown-figure {
+  @include font-size(56px);
+  font-weight:300
+}
+
+.countdown-caption {
+  @include font-size(13px);
+  color:#00c3d2;
+}
+
+
+.countdown-item{
+  width:156px;
+  height:161px;
+  background-image: url('../img/hexagon.png');
+  background-size:156px 156px;
+  background-repeat: no-repeat;
+}
+
+.countdown-inner {
+  margin-top:24px;
+}

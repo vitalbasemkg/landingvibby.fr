@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+// Our variables
+$base-font-family:'Open Sans', sans-serif;
+
+$text-color:#8d8d8d;
+
+$primary-color:#229ed5;
+
+
+
+
+@import
+        "mixins",
+        "fonts",
+        "base",
+        "custom"
+
+;
